@@ -1,9 +1,5 @@
 *AngryReviewer.txt*     A Vim plugin that suggests style corrections
 
-
-                           Vim AngryReviewer Plugin
-
-
 Author:            Anufriev Roman <https://angryreviewer.com>
 Plugin Homepage:   <https://github.com/anufrievroman/vim-angry-reviewer>
 
@@ -12,14 +8,8 @@ The plugin provides style suggestions for academic and scientific text.
 It works with any text, but works best with Latex files of scientific papers.
 This plugin is the offline version of the free web-service AngryReviewer.com
 
+规则太主观了 ?
 
-INSTALLATION
-============================================
-Use your favorite plugin manager. Using vim-plug:
-
-Plug 'anufrievroman/vim-angry-reviewer'
-
-Set the english dialect in `.vimrc` (either 'american' or 'british'):
 
 let g:AngryReviewerEnglish = 'american'
 
@@ -30,7 +20,8 @@ To check text in the buffer run:
 
 :AngryReviewer
 
-Suggestions are opened in the quick-fix list. Here are some useful commands to navigate the quick fix list:
+Suggestions are opened in the quick-fix list.
+Here are some useful commands to navigate the quick fix list:
 
 cnext - next suggestion
 cprev - previous suggestion
@@ -46,4 +37,5 @@ nnoremap <leader>ar :AngryReviewer<cr>
 You can remap it for (examples <space>r) as:
 
 nnoremap <space>r :AngryReviewer<cr>
-
+DIY_again
+DIY_2  vim:filetype=help:syntax=help:
